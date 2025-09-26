@@ -1,5 +1,21 @@
+<!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>TutorOS Test</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 12px; width: 260px; }
+      dt { font-weight: 600; }
+      dd { margin: 0 0 8px 0; }
+    </style>
+  </head>
   <body>
-    <h1>Hello Extensions</h1>
+    <h3>Extension Self-Test</h3>
+    <dl>
+      <dt>Platform</dt><dd id="platform">…</dd>
+      <dt>SW Message</dt><dd id="ping">…</dd>
+      <dt>Storage</dt><dd id="storage">…</dd>
+    </dl>
+    <script type="module" src="./dist/popup.js"></script>
   </body>
 </html>

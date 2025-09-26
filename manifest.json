@@ -4,7 +4,12 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-      "default_popup": "index.html",
+      "default_popup": "images/index.html",
       "default_icon": "open_tutor_black.png"
+    },
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "dist/background.js",
+      "type": "module"
     }
   }
